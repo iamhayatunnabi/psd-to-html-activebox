@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Full psd to html conversion" />
+    <meta
+      name="keywords"
+      content="psd to html, psd, html, imhayatunnabi, psd conversion, html conversion"
+    />
+    <meta name="author" content="imhayatunnabi" />
+    <title>PSD TO HTML PART 2</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/228491f377.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--landing page start-->
+    <section class="header">
+      <nav class="nav">
+        <a href="#"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">features</a></li>
+            <li><a href="#">works</a></li>
+            <li><a href="#">our team</a></li>
+            <li><a href="#">testimonials</a></li>
+            <li><a href="#">downloads</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="textbox">
+        <h1>
+          YOUR FAVORITE ONE PAGE <br />
+          MULTI PURPOSE TEMPLATE
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+          provident aliquid <br />
+          totam laboriosam asperiores, autem nam neque atque?
+        </p>
+        <a href="#" class="hero-btn">FIND OUT MORE</a>
+      </div>
+    </section>
+    <!--landing page end-->
+  </body>
+  <!-- Javascript mobile menu open-->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-220px";
+    }
+  </script>
+  <!-- Javascript mobile menu open-->
+</html>
